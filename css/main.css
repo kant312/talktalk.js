@@ -1,0 +1,12 @@
+body {
+	font: 24px/1.5 serif;
+}
+
+.wrapper {
+	overflow:hidden;
+}
+
+.left, .right { box-sizing:border-box; padding:1em; display:block; height:400px; width:50%; }
+
+.left { background:#ffe0e0; float:left; }
+.right { background:#e0e0ff; float:right; }
